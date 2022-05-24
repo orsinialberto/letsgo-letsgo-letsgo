@@ -2,7 +2,10 @@ module example.com/project-go
 
 go 1.17
 
-require github.com/gin-gonic/gin v1.7.7
+require (
+	github.com/confluentinc/confluent-kafka-go v1.8.2
+	github.com/gin-gonic/gin v1.7.7
+)
 
 require (
 	github.com/gin-contrib/sse v0.1.0 // indirect
